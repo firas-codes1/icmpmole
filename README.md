@@ -18,7 +18,7 @@ As a result, the following preprocessing decisions were made:
 Then, stochastic gradient descent was used for the model for the reasons that it can handle large datasets and processes data instance-by-instance, which is how packet analysis works: packet-by-packet. 
 
 ## Performance Evaluation:
-With timestamps:
+<b>With timestamps: </b>
 
 Cross Validation Scores (5 folds): [0.99999807 1.         1.         1.         1.        ]
 
@@ -35,7 +35,8 @@ Confusion Matrix:
 
 
 
-Without timestamps:
+
+<b> Without timestamps: </b>
 
 Cross Validation Scores  (5 folds): [0.99999807  1.         1.         1.         0.99999615]
 
