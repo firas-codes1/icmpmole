@@ -35,7 +35,7 @@ Confusion Matrix:
 
 
 
-
+<br>
 <b> Without timestamps: </b>
 
 Cross Validation Scores  (5 folds): [0.99999807  1.         1.         1.         0.99999615]
