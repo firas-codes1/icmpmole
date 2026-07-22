@@ -4,13 +4,13 @@ import pandas as pd
 import time
 
 
-model = joblib.load("ICMPflood_detector.pkl")
+model = joblib.load("ICMPflood_detector.pkl") #load ML model
 
-machineIP="192.168.1.1"
+machineIP="192.168.1.1" #can be anything even a list of trusted IPs
 
 def Analyzer(pack,model,machineIP,start_time):
 	if ICMP in pack:
-		#proccess packet
+		#proccess packet and filter IPs
 		if pack[IP].src==machineIP:
 			pack[IP].src=1
 
@@ -47,9 +47,9 @@ def Analyzer(pack,model,machineIP,start_time):
 		if prediction==1:
 			print("Malicious packet: ICMP flood")
 		else:
-			print("ICMP Packet safe:")
+			print("ICMP Packet safe")
 			#print(pack)
-			print(df.values)
+			#print(df.values)
 
 	else:
 		pass
