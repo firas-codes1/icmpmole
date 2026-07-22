@@ -56,4 +56,5 @@ Confusion Matrix:
  [0, 2592519]]
 
 
-The final model was trained with timestamps due to higher Cross Validation scores.
+
+*** The final model was trained with timestamps due to higher Cross Validation scores. ***
