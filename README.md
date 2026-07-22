@@ -19,21 +19,36 @@ Then, stochastic gradient descent was used for the model for the reasons that it
 
 ## Performance Evaluation:
 With timestamps:
+
 Cross Validation Scores (5 folds): [0.99999807 1.         1.         1.         1.        ]
+
 Accuracy:0.9999984592534158
+
 Precision: 0.9999988428256347
+
 Recall: 1.0
+
 Confusion Matrix:
+
 [[3622, 3],
  [0, 2592519]]
 
+
+
 Without timestamps:
+
 Cross Validation Scores  (5 folds): [0.99999807  1.         1.         1.         0.99999615]
+
 Accuracy:0.9999984592534158
+
 Precision:0.9999988428256347
+
 Recall:1.0
+
 Confusion Matrix:
+
 [[3622, 3],
  [0, 2592519]]
+
 
 The final model was trained with timestamps due to higher Cross Validation scores.
