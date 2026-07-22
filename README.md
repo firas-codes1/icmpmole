@@ -15,6 +15,8 @@ As a result, the following preprocessing decisions were made:
 3. Encode IP addresses to 1 for internal and trusted IPs (only 192.167.5.22 in the case of the dataset), and 0 for all others.
    The encoding of IPs follows the access control concept of splitting the network to security zones (trusted, untrusted...etc) which reduces the complexity of the model.
 
+The encoding being restricted to 1 and 0 is because encoding IPs or Protocols as numbers (1,2,3,4,5...) could lead to bias (e.g. higher source IP value = malicious, lower protocol value = malicious).
+
 Then, stochastic gradient descent was used for the model for the reasons that it can handle large datasets and processes data instance-by-instance, which is how packet analysis works: packet-by-packet. 
 
 ## Performance Evaluation:
