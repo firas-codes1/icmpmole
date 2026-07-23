@@ -2,7 +2,7 @@
 ## Machine-learning based ICMP flood detection tool
 Dataset used: https://www.kaggle.com/datasets/advaitnmenon/network-traffic-data-malicious-activity-detection?resource=download
 ## Model Training and reasoning
-Upon inspecting 12 packets from tail and 12 from head, i noticed that ICMP is flagged as bad packet when coming from same source to same destination repeatedly.
+Upon inspecting the dataset, i noticed that ICMP is flagged as bad packet when coming from same source to same destination repeatedly.
 And although flood can be done with TCP SYN as well, it seems that malicious TCP traffic was not used for this dataset making it limited only to detecting ICMP flood.
 
 The original dataset included Source and Destination ports. However, since ICMP is not on the transport layer, there is no need for source and destination ports, only IP addresses, packet length, capture time, and protocol. 
