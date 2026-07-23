@@ -40,7 +40,7 @@ Confusion Matrix:
 <br>
 <b> Without timestamps: </b>
 
-Cross Validation Scores  (5 folds): [0.99999807  1.         1.         1.         0.99999615]
+Cross Validation Scores  (5 folds): [0.99999807 1.         1.         1.         0.99999615]
 
 Accuracy:0.9999984592534158
 
@@ -56,4 +56,4 @@ Confusion Matrix:
 
 
 
-*** The final model was trained with timestamps due to higher Cross Validation scores. ***
+*** The final model was trained with timestamps due to higher Cross Validation scores, higher precision, and higher True Positives in Confusion Matrix. ***
