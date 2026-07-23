@@ -22,19 +22,18 @@ Then, Stochastic Gradient Descent (SGD) was used for the model because of its ef
 ## Performance Evaluation:
 <b>With timestamps: </b>
 
-Cross Validation Scores (5 folds): [0.99999807 1.         1.         1.         1.        ]
+Cross Validation Scores (5 folds): [0.99999807 1.         1.         0.99999807 1.        ]
 
 Accuracy:0.9999984592534158
 
-Precision: 0.9999988428256347
+Precision: 0.9999992285501256
 
 Recall: 1.0
 
 Confusion Matrix:
 
-[[3622, 3],
-
- [0, 2592519]]
+[[   3623,       2],
+ [      0, 2592519]]
 
 
 
