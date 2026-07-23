@@ -17,7 +17,7 @@ As a result, the following preprocessing decisions were made:
 
 The encoding being restricted to 1 and 0 is because encoding IPs or Protocols as numbers (1,2,3,4,5...) could lead to bias (e.g. higher source IP value = malicious, lower protocol value = malicious).
 
-Then, stochastic gradient descent was used for the model for the reasons that it can handle large datasets and processes data instance-by-instance, which is how packet analysis works: packet-by-packet. 
+Then, Stochastic Gradient Descent (SGD) was used for the model because of its efficiency, ability to handle large datasets, and suitability for binary classification tasks.
 
 ## Performance Evaluation:
 <b>With timestamps: </b>
