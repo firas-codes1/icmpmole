@@ -56,4 +56,4 @@ Confusion Matrix:
 
 
 
-*** The final model was trained with timestamps due to higher Cross Validation scores, higher precision, and higher True Positives in Confusion Matrix. ***
+*** The final model was trained with timestamps due to higher Cross Validation scores, higher precision, and higher True Negatives in Confusion Matrix. ***
