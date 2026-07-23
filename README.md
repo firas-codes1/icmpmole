@@ -11,7 +11,7 @@ When looking at the tail instances of the dataset, the packets at the end which 
 
 As a result, the following preprocessing decisions were made:
 1. Remove Source and Destination Ports columns.
-2. Encode Protocols to the following values: 1 for ICMP and TCP, and 0 for all others. TCP was intentionally grouped with ICMP to allow for improvement in future work including TCP flood detection.
+2. Encode Protocols to the following values: 1 for ICMP, and 0 for all others. 
 3. Encode IP addresses to 1 for internal and trusted IPs (only 192.167.5.22 in the case of the dataset), and 0 for all others.
    The encoding of IPs follows the access control concept of splitting the network to security zones (trusted, untrusted...etc) which reduces the complexity of the model.
 
