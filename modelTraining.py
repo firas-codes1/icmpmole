@@ -23,7 +23,7 @@ le = LabelEncoder()
 df["Protocol"]=le.fit_transform(df['Protocol'])
 #this makes: TCP=4, ICMP=2
 
-df["Protocol"] = ((df["Protocol"] == 2) | (df["Protocol"] == 4)).astype(int)
+df["Protocol"] = (df["Protocol"] == 2).astype(int)
 
 
 #SPLIT DATASET ************************************
