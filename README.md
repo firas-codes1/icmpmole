@@ -1,6 +1,11 @@
 # ICMPmole
 ## Machine-learning based ICMP flood detection tool
 Dataset used: https://www.kaggle.com/datasets/advaitnmenon/network-traffic-data-malicious-activity-detection?resource=download
+
+Run mainImplement.py and have the ICMPflood_model.pkl in the working directory of mainImplement.py
+
+## Mapping to MITRE ATT&CK
+Activity detected by ICMPmole maps to $${ \color{red} Impact \space (TA0040) \space – \space T1498  \space Network \space Denial \space of \space Service. }$$ 
 ## Model Training and reasoning
 Upon inspecting the dataset, i noticed that ICMP is flagged as bad packet when coming from same source to same destination repeatedly.
 And although flood can be done with TCP SYN as well, it seems that malicious TCP traffic was not used for this dataset making it limited only to detecting ICMP flood.
