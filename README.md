@@ -3,7 +3,7 @@ Dataset used: https://www.kaggle.com/datasets/advaitnmenon/network-traffic-data-
 
 Run mainImplement.py and have the ICMPflood_model.pkl in the working directory of mainImplement.py
 
-![Demo image](./ICMPMoledemo.png)
+[Demo image](./ICMPMoledemo.png)
 
 ## Mapping to MITRE ATT&CK
 Activity detected by ICMPmole maps to $${ \color{red} Impact \space (TA0040) \space – \space T1498  \space Network \space Denial \space of \space Service. }$$ 
