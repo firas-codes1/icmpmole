@@ -1,10 +1,9 @@
-<img width="1705" height="1387" alt="image" src="https://github.com/user-attachments/assets/c0089652-c2f1-4db7-893a-4702b49e8dd9" /># ICMPmole
 ## Machine-learning based ICMP flood detection tool
 Dataset used: https://www.kaggle.com/datasets/advaitnmenon/network-traffic-data-malicious-activity-detection?resource=download
 
 Run mainImplement.py and have the ICMPflood_model.pkl in the working directory of mainImplement.py
 
-<img src="./ICMPMoledemo.png" alt="Demo" width="700">
+<img src="./ICMPMoledemo.png" alt="Demo" width="700" height="600">
 
 ## Mapping to MITRE ATT&CK
 Activity detected by ICMPmole maps to $${ \color{red} Impact \space (TA0040) \space – \space T1498  \space Network \space Denial \space of \space Service. }$$ 
